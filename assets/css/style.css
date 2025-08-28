@@ -1,0 +1,72 @@
+/*------------------ General ------------------*/
+body {
+    font-family: "Libre Baskerville", serif;
+    font-size: medium;
+    background-color: rgb(216, 221, 221);
+}
+
+/*------------------ CV body ------------------*/
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+}
+
+/*------------------ Profile ------------------*/
+
+.profile {
+    background-color: rgb(245, 219, 147);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 90%;
+}
+#selfie {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*------------------ Divs container style ------------------*/
+.container-style {
+    background-color: rgb(188, 188, 188);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/*------------------ Education & Work Experience ------------------*/
+.education-and-experience {
+    grid-area: 2 / 2 / 1 / 2;
+    padding: 25px;
+}
+.education-and-experience > h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+/*------------------ Awards & Certifications ------------------*/
+.awards-and-certifications {
+    padding: 20px;
+}
+.btn-certifications {
+    font-family: "Libre Baskerville", serif;
+    border-radius: 5px;
+    background-color: rgb(245, 219, 147);
+    padding: 10px 20px;
+}
+.awards-and-certifications ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.awards-and-certifications .btn-certifications {
+    margin: 5px;
+}
